@@ -4,7 +4,14 @@ Small program to list Windows processes and their PIDs. Written in x64 Assembly.
 
 ## Build
 
-Compile it using [fasm](https://flatassembler.net).
+Assembly it using [fasm](https://flatassembler.net):
+
+```txt
+C:\>cd proclist\src
+C:\proclist\src>fasm proclist.asm
+flat assembler  version 1.73.30  (1048576 kilobytes memory)
+3 passes, 2048 bytes.
+```
 
 ## Example Output
 
